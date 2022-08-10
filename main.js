@@ -58,11 +58,11 @@ window.addEventListener("load", () => {
         task_edit_el.innerText = "Edit";
       }
     });
-      
-      task_delete_el.addEventListener('click', () => {
-          if (confirm("Are you sure you want to delete this task?")) {
-            list_el.removeChild(task_el);
-          }
-      })
+
+    task_delete_el.addEventListener("click", () => {
+      if (confirm("Are you sure you want to delete this task?")) {
+        list_el.removeChild(task_el);
+      }
+    });
   });
 });
